@@ -72,7 +72,7 @@ function Inputs({ setQuery, units, setUnits }) {
         </button>
       </div>
     </div>
-  );
+  )
 }
 
 export default Inputs;

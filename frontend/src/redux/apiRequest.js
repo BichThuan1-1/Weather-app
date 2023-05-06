@@ -11,9 +11,6 @@ import {
   registerSuccess,
 } from "./authSlice";
 import {
-  // deleteUserFailed,
-  // deleteUsersSuccess,
-  // deleteUserStart,
   getUsersFailed,
   getUsersStart,
   getUsersSuccess,

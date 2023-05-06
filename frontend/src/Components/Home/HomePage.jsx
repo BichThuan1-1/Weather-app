@@ -57,7 +57,7 @@ function HomePage() {
           <Forecast title="hourly forecast" items={weather.hourly} />
           <Forecast title="daily forecast" items={weather.daily} />
         </div>
-      )};
+      )}
 
       <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
     </div>

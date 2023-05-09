@@ -1,48 +1,47 @@
 .navbar-container{
     display: flex;
-    padding: 0rem 1.5rem;
-    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    justify-content: flex-end;
     background-color: rgb(5, 69, 158);
     align-items: center;
 }
-/* .navbar-container > *{
-    margin: 0 1.25rem;
-    text-decoration: none;
-    font-weight: 600;
-    color:rgb(0, 99, 230);
-} */
 .user-logout{
     font-weight: 600;
     display: flex;
     align-items: center;
     text-justify: auto;
     flex-direction: row;
-    margin: 20px;
+    margin-right: 20px;
 }
 .navbar-home{
     color:rgb(255, 255, 255);
 }
 .navbar-login {
-    color:rgb(163, 162, 162);
+    font-weight: 600;
+    color:white;
+    margin-right: 20px;
 }
 .navbar-register{
-    color:rgb(255, 255, 255);
-    background-color: rgb(150, 150, 150);
-    padding:0.35rem;
+    color: rgb(5 69 158);
+    background-color: rgb(208 242 255);
     border-radius: 6px;
+    font-weight: 600;
+    padding: 5px 15px;
 }
 .navbar-user{
-    color: rgb(180, 236, 239);
+    color: rgb(210 245 255);
+    font-weight: 600;
 }
 .navbar-logout {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 0.35rem;
+    color: rgb(5 69 158);
+    padding: 5px 15px;
     margin-left: 20px;
+    background: #d6e6ff;
+    border-radius: 8px;
+    font-weight: 600;
 }
-.city{
-    margin-left: 20rem;
-}
+
 button{
     margin: auto;
     cursor: pointer;

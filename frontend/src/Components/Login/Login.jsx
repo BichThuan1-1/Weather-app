@@ -23,22 +23,25 @@ const Login = () => {
       <form onSubmit={handleLogin}>
         <label>USERNAME</label>
         <input
+          class ="nameinput"
           type="text"
           placeholder="Enter your username"
           onChange={(e) => setUsername(e.target.value)}
         />
         <label>PASSWORD</label>
         <input
+          class ="passwordinput"
           type="password"
           placeholder="Enter your password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit"> Đăng Nhập </button>
+        <button class="loginbutton" type="submit"> Đăng Nhập </button>
       </form>
       <div className="login-register"> Bạn chưa có tài khoản? </div>
       <Link className="login-register-link" to="/register">
         Đăng ký Ngay!
       </Link>
+      
     </section>
   );
 };
